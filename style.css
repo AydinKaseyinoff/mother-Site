@@ -22,6 +22,7 @@ nav{
 
 .navbar a{
   margin: 0 1rem;
+  font-size: 20px;
   color: #fff;
   transition: all 500ms;
 }
@@ -34,11 +35,12 @@ nav{
 .nav-left{
   background-color: rgb(212, 10, 223);
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .nav-left a{
   color: #fff;
+  font-size: 20px;
 }
 
 .nav-left li{
@@ -66,6 +68,7 @@ nav{
 .lessons-list{
   display: flex;
   background-color: #fff;
+  font-size: 30px;
   align-items: center;
   position: relative;
   overflow: hidden;

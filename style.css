@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar{
+  background-color: rgb(212, 10, 223);
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar a{
+  margin: 0 1rem;
+  color: #fff;
+  transition: all 500ms;
+}
+.navbar a:hover{
+  color: #a8a199;
+  border-bottom: 0.1rem solid #c99e71;
+  padding-bottom: 0.5rem;
+}
+
+.nav-left{
+  background-color: rgb(212, 10, 223);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.nav-left a{
+  color: #fff;
+}
+
+.home{
+  background-image: url(./img/header.jpg);
+  background-size: cover;
+  max-width: 100%;
+  min-height: 90vh;
+  background-position: center;
+}
+.lessons-flex{
+  display: flex;
+}
+.lessons-list{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.lessons-list img{
+  width: 50px;
+}
+.lessons-box{
+  background-color: rgb(174, 160, 188);
+  width: 100%;
+  border-radius: 20px;
+}
